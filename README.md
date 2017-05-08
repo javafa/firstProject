@@ -9,7 +9,7 @@ public class FirstJava {
 ```
 
 ## Second
-second title is here!
+여기가 두번째 Depth 입니다.
 
 ### 3rd
 Third title is here!
