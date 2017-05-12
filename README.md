@@ -50,7 +50,7 @@
 [참조명]: http://google.com
 
 # 이미지
-![텍스트](이미지링크)
+![박보검](http://cfile22.uf.tistory.com/image/266E6837578CCFC920DB6E)
 
 # 수평선
 -, *, _을 세개 이상 나열
