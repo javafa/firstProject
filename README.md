@@ -5,8 +5,26 @@
 #을 하나 쓰면 HTML의 h1 태그를, #을 두개 쓰면 h2 태그를 의미한다. 즉, #은 하나에서 여섯개까지 쓸 수 있고, #이 늘어날때마다 제목의 수준은 내려간다.(보통 글씨 크기가 작아진다.)
 
 # 번호 없는 리스트
-- 텍스트1<br/>여기는 <font color="blue">텍스트 1</font>의 내용입니다.
-
+- 코드의 제목<br/>코드 내용에 대한 짧은 요약
+```java
+	public void drawTriReverse(String mark, int count){
+		// 0. 각 줄단위를 처리하는 전체 반복문
+		for(int i=0 ; i<count ; i++){
+			// 1. 공백찍는 반복문
+			// 공백은 전체카운트에서 각 줄수를 뺀만큼 출력한다
+			for(int j=0 ; j < (count-1)-i ; j++){ 
+				System.out.print(" ");
+			}
+			// 2. 마크찍는 반복문
+			// 마크는 각 줄의 숫자만큼 출력한다.
+			for(int k=0 ; k<=i ; k++){ 
+				System.out.print(mark);
+			}
+			System.out.println(" i=" + i);
+		}
+		System.out.println("");
+	}
+```
 - 텍스트2
 
 # 번호 있는 리스트
